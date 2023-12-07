@@ -1,0 +1,144 @@
+body {
+    font-family: 'Chewy'; font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+.custom-background {
+    margin: 0;
+    padding: 0;
+    background-image: url('background.png'); /* Replace with your image path */
+    background-size: cover; /* Cover the entire page */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+}
+
+header {
+    background-color: #ADD8E6; /* Soft Blue */
+    color: white;
+    padding: 10px 0;
+}
+
+.header-container {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.header-title {
+    color: black;
+    text-decoration: underline;
+    font-size: 2.5em; /* Larger Font Size */
+}
+
+.home {
+    text-align: center;
+    color: orangered;
+}
+
+.about {
+    text-align: center;
+    color: #4CAF50;
+}
+
+.quiz {
+    color: peachpuff; 
+}
+
+#navbar ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.login {
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.login:hover {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 12px;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+footer {
+    background-color: #ADD8E6; /* Soft Blue */
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.videos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* space out the videos */
+}
+
+.youtube-video {
+    width: 400px;
+    height: 250px;
+}
+
+.information {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 250px; 
+}
+
+.picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* space out the videos */
+}
+
+.pictures {
+    width: 400px;
+    height: 250px;
+}
+
+.description {
+    border: 2px solid #ADD8E6; /* Choose a border color that fits your site's theme */
+    padding: 20px; /* Adds space inside the box */
+    margin: 20px; /* Adds space outside the box */
+    border-radius: 10px; /* Optional: for rounded corners */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow */
+    background-color: #ffffff; /* Optional: sets a background color for the box */
+    max-width: 800px; /* Optional: restricts the box width */
+    margin-left: auto; /* These two lines center the box horizontally */
+    margin-right: auto;
+}
